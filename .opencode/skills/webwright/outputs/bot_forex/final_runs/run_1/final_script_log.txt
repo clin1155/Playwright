@@ -1,0 +1,12 @@
+step 1 action: open Bank of Taiwan homepage
+step 2 action: page loaded: url=https://www.bot.com.tw/tw/personal-banking, title=臺灣銀行 : 個人金融
+step 3 action: USD slide is visible in the forex rates carousel
+step 4 action: USD rates extracted: {'現金買進': '31.625', '現金賣出': '32.295', '即期買進': '31.95', '即期賣出': '32.1'}, update time: 2026/07/06 20:01
+
+FINAL_RESPONSE:
+臺灣銀行美金/臺幣即期匯率 (掛牌時間：2026/07/06 20:01)
+  即期買入 (Spot Buying):  31.95
+  即期賣出 (Spot Selling): 32.1
+  現金買入 (Cash Buying):   31.625
+  現金賣出 (Cash Selling):  32.295
+
