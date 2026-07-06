@@ -8,6 +8,7 @@ WORKSPACE = Path(".")
 SCREENSHOTS = WORKSPACE / "screenshots"
 SCREENSHOTS.mkdir(parents=True, exist_ok=True)
 
+
 async def main():
     async with async_playwright() as playwright:
         browser = await playwright.firefox.launch(headless=True)
@@ -17,7 +18,7 @@ async def main():
         await page.goto("https://www.bot.com.tw", wait_until="domcontentloaded")
         await page.wait_for_timeout(5000)
 
-        sys.stdout.reconfigure(encoding='utf-8')
+        sys.stdout.reconfigure(encoding="utf-8")
         print("URL:", page.url)
         print("TITLE:", await page.title())
 
@@ -65,5 +66,6 @@ async def main():
         print(f"\n=== UPDATE TIME: {update_time} ===")
 
         await browser.close()
+
 
 asyncio.run(main())
