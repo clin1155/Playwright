@@ -1,0 +1,15 @@
+1. Download git
+2. git config --global user.name "John Doe"
+3. git config --global user.email johndoe@example.com
+4. git clone github_address
+5. install uv
+    powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+6. uv venv
+7. activate venv
+    .venv\Scripts\activate
+8. Security
+    Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+9. nodejs
+    go to opencode website, npm i -g opencode-ai
+    use terminal to run the command
+10. type opencode to exucute the TUI
