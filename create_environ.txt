@@ -12,7 +12,7 @@
 7. 更新套件
     uv sync
 8. 安裝playwright
-    uv run python -m playwright install
+    uv run playwright install
 9. Security安全性設定
     Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
 10. 啟動虛擬環境
@@ -22,6 +22,5 @@ Notes
 To use TUI, install nodejs first
     go to opencode website
     in terminal, run this command
-    npm i -g opencode-ai    
+    npm i -g opencode-ai
     type **opencode** to exucute the TUI
-
