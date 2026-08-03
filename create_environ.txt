@@ -3,7 +3,7 @@
     git config --global user.name "John Doe"
     git config --global user.email johndoe@example.com
 3. 下載專案
-    git clone github專案網址
+    git clone github 專案網址
 4. 安裝 uv
     powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 5. 關閉終端機再重新開啟，這樣電腦可以識別到uv安裝好了
